@@ -2,7 +2,7 @@ class Api::Admin::ProductsController < Api::BaseController
   before_filter :load_product, :only => [ :update, :destroy ]
 
   def create
-    @product = Product.last
+    @product = Product.create!(params[:product])
     render :xml => @product.to_xml
   end
 
