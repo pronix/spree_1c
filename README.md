@@ -1,13 +1,6 @@
 Spree1c
 =======
 
-Introduction goes here.
+Обработка для конфигурации 1с 8.2 бухгалетрия
+В конфигурацию нужно внести изменения в сравочник "Номенклатура", добавить реквизит spree_id
 
-
-Example
-=======
-
-Example goes here.
-
-
-Copyright (c) 2011 [name of extension creator], released under the New BSD License
